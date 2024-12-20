@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/x/xorjson/xorjson-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/x/xorjson/xorjson-{{ version }}.tar.gz
   sha256: f23d792ee3092d60bb9f772eacf14df5484cfb25cd8874693bde83987254c193
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<37]
 
 requirements:
